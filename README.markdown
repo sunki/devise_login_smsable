@@ -10,7 +10,7 @@ Install notes
 
 **Migration:**
 
-<code>rails generate devise_login_smsable &lt;<YOUR_DEVISE_MODEL>&gt;</code>
+<code>rails generate devise_login_smsable &lt;YOUR_DEVISE_MODEL&gt;</code>
 
 **Config initializer:**
 
@@ -37,9 +37,8 @@ Building your own gates
 
 Look into this two files to build same gates using other services:
 
-*lib/devise_login_smsable/abstract_gate.rb*
-
-*lib/devise_login_smsable/smsru.rb*
+* *lib/devise_login_smsable/abstract_gate.rb*
+* *lib/devise_login_smsable/smsru.rb*
 
 More info and instructions will come.
 
@@ -52,5 +51,6 @@ TODO
 ----
 
 * Add possibility to resend sms_code (now user should log-out and log-in again to receive new sms_code when current one is expired)
+
 
 &copy; Chvertkin Maxim. Protected by MIT-LICENSE.
