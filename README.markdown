@@ -9,16 +9,20 @@ Install notes
 -------------
 
 **Migration:**
-<code>rails generate devise_login_smsable <YOUR_DEVISE_MODEL></code>
+
+<code>rails generate devise_login_smsable &lt;<YOUR_DEVISE_MODEL>&gt;</code>
 
 **Config initializer:**
+
 <code>rails generate devise_login_smsable:config</code>
 
-Look into *config/initializers/devise_login_smsable.rb* and change the *phone_column_name* if needed, then run migration:
+Look into *config/initializers/devise_login_smsable.rb* and change the *phone_column_name* if needed, then run migrations:
+
 <code>rake db:migrate</code>
 
 **Routes:**
 Add this line to *config/routes.rb* inside routes block:
+
 <code>login_smsable</code>
 
 **Model:**
@@ -32,7 +36,9 @@ Building your own gates
 -----------------------
 
 Look into this two files to build same gates using other services:
+
 *lib/devise_login_smsable/abstract_gate.rb*
+
 *lib/devise_login_smsable/smsru.rb*
 
 More info and instructions will come.
