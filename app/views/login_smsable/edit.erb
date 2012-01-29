@@ -1,0 +1,9 @@
+<h2>Sms checking</h2>
+
+<%= form_for :login_smsable, :url => login_smsable_path(@user.class.name.underscore), :method => :put do |f| %>
+
+  <div><%= f.label :sms_code %><br />
+  <%= f.text_field :sms_code %></div>
+  
+  <div><%= f.submit "Sign in" %></div>
+<% end %>

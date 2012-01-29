@@ -1,0 +1,7 @@
+Gemfile
+Gemfile.lock
+.bundle/
+log/*.log
+pkg/
+test/dummy/
+test/dummy/**/*
