@@ -7,7 +7,7 @@ require "devise_login_smsable/version"
 Gem::Specification.new do |s|
   s.name        = "devise_login_smsable"
   s.version     = DeviseLoginSmsable::VERSION
-  s.authors     = ["Chvertkin Maxim"]
+  s.authors     = ["Maxim"]
   s.email       = ["maxx11@gmail.com"]
   s.homepage    = "TODO"
   s.summary     = "SMS or IP authentication"
